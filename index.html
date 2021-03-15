@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Assignment # 16</h1>
+        <h2>Muhammad Noman Waleed - Roll # 18447</h2>
+        <hr>
+        <h3>
+            1- Write a js program to check whether a character is uppercase or
+            lowercase alphabet.
+        </h3>
+        <form>
+            <input type="text" name="inputQ1" id="input1Q" placeholder="Enter a Character" maxlength="1" minlength="1"
+                required />
+            <input type="submit" value="Check" id="submit1Q" onclick="return func1Q()" />
+            <span id="error1Q" class="error"></span>
+            <span id="answer1Q" class="answer"></span>
+        </form>
+        <hr>
+    
+        <!-- Q2 -->
+        <h3>2- Write a js program to input Week number and print week day.</h3>
+        <form>
+            <input type="number" name="input2Q" id="input2Q" placeholder="Enter Number from 0 to 6" maxlength="1"
+                required />
+            <input type="submit" id="submit2Q" onclick="return func2Q()" value="Check" />
+            <span id="error2Q" class="error"></span>
+            <span id="answer2Q" class="answer"></span>
+            <p>Starting from Monday</p>
+        </form>
+        <hr>
+        <!-- Q3 -->
+        <h3>
+            3- Write a js program to input month number and print number of days in
+            that month.
+        </h3>
+        <form>
+            <input type="number" name="input3Q" id="input3Q" placeholder="Enter Number from 0 to 11" maxlength="2"
+                minlength="1" required />
+            <input type="submit" id="submit3Q" onclick="return func3Q()" value="Check " />
+            <span id="error3Q" class="error"></span>
+            <span id="answer3Q" class="answer"></span>
+            <p>Starting from January</p>
+        </form>
+        <hr>
+        <!-- Q4 -->
+        <h3>
+            4- Write a js program to count total number of notes in given amount.
+        </h3>
+        <form>
+            <input type="number" name="input4Q" id="input4Q" placeholder="Enter Amount" required />
+            <input type="submit" id="submit4Q" onclick="return func4Q()" value="Check" />
+            <span id="error4Q" class="error"></span>
+            <span id="answer4Q" class="answer"></span>
+            <p>Only Enter Amount Divisible by 1000</p>
+        </form>
+        <hr>
+        <!-- Q5 -->
+        <h3>5- Write a js program to input angles of a triangle and check whether triangle is valid or not. <br><br>OR</h3>
+        <h3>6-. Write a js program to input all sides of a triangle and check whether triangle is valid or not.</h3>
+        <form>
+            <input type="number" name="inputi5Q" id="inputi5Q" placeholder="Enter 1st Angle" required />
+            <input type="number" name="inputii5Q" id="inputii5Q" placeholder="Enter 2nd Angle" required />
+            <input type="number" name="inputiii5Q" id="inputiii5Q" placeholder="Enter 3rd Angle" required />
+            <input type="submit" id="submit5Q" onclick="return func5Q()" value="Check" />
+            <span id="error5Q" class="error"></span>
+            <span id="answer5Q" class="answer"></span>
+            <p>All 3 Angles Should be = 180</p>
+        </form>
+        <hr>
+        <!-- Q7 -->
+    
+        <h3>7- Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.</h3>
+        <form>
+            <input type="number" name="inputi7Q" id="inputi7Q" placeholder="Enter 1st Side" required />
+            <input type="number" name="inputii7Q" id="inputii7Q" placeholder="Enter 2nd Side" required />
+            <input type="number" name="inputiii7Q" id="inputiii7Q" placeholder="Enter 3rd Side" required />
+            <input type="submit" id="submit7Q" onclick="return func7Q()" value="Check" />
+            <span id="error7Q" class="error"></span>
+            <span id="answer7Q" class="answer"></span>
+        </form>
+        <hr>
+        <!-- Q8 -->
+        <h3>8- Write a js program to find all roots of a quadratic equation.</h3>
+        <img src="img/quadraticEquation.jpg" alt="" width="200px">
+        <form>
+            <input type="number" name="inputi8Q" id="inputi8Q" placeholder="Enter Value of 'a'" required />
+            <input type="number" name="inputii8Q" id="inputii8Q" placeholder="Enter Value of 'b'" required />
+            <input type="number" name="inputiii8Q" id="inputiii8Q" placeholder="Enter Value of 'c'" required />
+            <input type="submit" id="submit8Q" onclick="return func8Q()" value="Check" />
+            <span id="error8Q" class="error"></span>
+            <span id="answer8Q" class="answer"></span>
+        </form>
+        <hr>
+        <!-- Q9 -->
+        <h3>9- Write a js program to calculate profit or loss.</h3>
+        <form>
+            <input type="number" name="inputi9Q" id="inputi9Q" placeholder="Enter Purchasing Amount" required />
+            <input type="number" name="inputii9Q" id="inputii9Q" placeholder="Enter Selling Amount" required />
+            <input type="submit" id="submit9Q" onclick="return func9Q()" value="Calculate" />
+            <span id="error9Q" class="error"></span>
+            <span id="answer9Q" class="answer"></span>
+        </form>
+        <hr>
+        <!-- Q10 -->
+        <h3>10- Write a js program to search all occurrences of a character in given string.</h3>
+        <form>
+            <input type="text" name="inputi10Q" id="inputi10Q" placeholder="Type a Sentence" required />
+            <input type="text" name="inputii10Q" id="inputii10Q" placeholder="Type a Letter" required />
+            <input type="submit" id="submit10Q" onclick="return func10Q()" value="Search Occurence" />
+            <span id="error10Q" class="error"></span>
+            <span id="answer10Q" class="answer"></span>
+        </form>
+        <hr>
+    
+    <!-- Q 11 -->
+    <h3>11- Write a js program to count occurrences of a character in given string.</h3>
+    <form>
+        <input type="text" name="inputi11Q" id="inputi11Q" placeholder="Type a Sentence" required />
+        <input type="text" name="inputii11Q" id="inputii11Q" placeholder="Type a Letter" required />
+        <input type="submit" id="submit11Q" onclick="return func11Q()" value="Search Occurence" />
+        <span id="error11Q" class="error"></span>
+        <span id="answer11Q" class="answer"></span>
+    </form>
+    <hr>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

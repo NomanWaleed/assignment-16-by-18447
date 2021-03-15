@@ -1,0 +1,55 @@
+body{
+    background-color: #659DBD;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    padding: 30px;
+    background-color: white;
+}
+@media only screen and (max-width: 1440px){
+    .container{
+        width: 60%;
+        margin-left: 10%;
+    }    
+}
+h1,h2{
+    text-align: center;
+    margin: 20px;
+    /* color: #659DBD; */
+    /* -webkit-text-stroke: 1px white; */
+}
+
+hr{
+    margin: 20px 0px;
+}
+.answer{
+    color: green;
+    font-weight: 600;
+}
+.error{
+    color: red;
+    font-weight: 600;
+
+}
+input[type=text], input[type=number]{    
+    height: 30px;
+    width: 200px;
+}
+input[type=submit]{
+    height: 36px;
+    width: cover 75px;
+}
+
+input[type=text]:focus {
+  }
+::placeholder{
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* color: white; */
+}
+h3{
+    /* color:chocolate; */
+}
